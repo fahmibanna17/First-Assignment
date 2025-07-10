@@ -1,0 +1,32 @@
+.raleway{
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.inter{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+/* shared styles */
+
+/* Nav styles */
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 150px 547px;
+}
+.nav-title{
+    font-size: 34;
+    font-weight: 900;
+    color: #4E47FF;
+}
+.signup-button{
+    font-size: 16;
+    font-weight: bold;
+    background-color: #4E47FF;
+    border: none;
+    color: #ffffff;
+    padding: 12px 36px;
+    border-radius: 5px;
+}

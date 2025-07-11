@@ -1,3 +1,7 @@
+/* *{
+    margin: 0px;
+    padding: 0px;
+} */
 .raleway{
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
@@ -127,4 +131,50 @@ main{
     display: flex;
     justify-content: space-around;
 }
+/* users feedback style */
+.buyer-intro{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 0px;
+    padding: 0px;
 
+}
+.feedback-section{
+    text-align: center;
+}
+.first-feedback-container{
+    border-radius: 10px;
+    padding: 50px;
+    /* text-align: center; */
+    width: 366px;
+    height: 243px;
+    margin: 0 auto;
+}
+.feedback-container{
+    display: flex;
+    gap: 24px;
+    margin-top: 50px;
+}
+.main-comment{
+    font-weight: bold;
+    font-size: 25px;
+}
+.main-name{
+    font-weight: bold;
+    font-size: medium;
+    margin-bottom: 2px;
+    display: block;
+}
+.main-date{
+    margin-top: 0;
+}
+.buyer-pic{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    
+}
+.users-feedback{
+    margin-top: 137px;
+}

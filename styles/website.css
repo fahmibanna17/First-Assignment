@@ -8,18 +8,25 @@
   font-optical-sizing: auto;
   font-style: normal;
 }
+header{
+    margin: 0 auto;
+    /* width: 1170px; */
+    background-image: url(Hero-bg.png);
+}
 /* shared styles */
 
 /* Nav styles */
 nav{
+    /* flex: 1; */
     display: flex;
     justify-content: space-between;
+    align-items: center;
     /* margin: 50px 150px 547px; */
-    padding: 20px 40px;
-    padding: 0px 150px 0px 150px;
+    padding: 50px 150px;
+    margin-bottom: 150px;
 }
 .nav-title{
-    font-size: 34px;
+    font-size: 30px;
     font-weight: 900;
     color: #4E47FF;
 }
@@ -35,23 +42,27 @@ nav{
     transition: background-color 0.3s ease;
 }
 .signup-button:hover{
-    background-color: #3b3aee;
+    background-color: #7e7ec4;
 }
 /* banner styles */
 .banner-title{
     color: #252432;
-    font-size: 65px;
+    font-size: 55px;
     font-weight: bold;
-    margin-bottom: 20px;
+    margin-bottom: 35px;
 }
 .banner{
-    flex: 1;
+    width: 905px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 40px 20px;
-    margin-left: 267.5px;
+    margin: 0 auto;
+    /* padding: 40px 20px; */
+    /* margin-left: 267.5px;
     margin-right: 267.5px;
+    margin-bottom: 152px; */
+    /* padding: 309px 267.5px 152px 267.5px; */
+    padding-bottom: 100px;
 }

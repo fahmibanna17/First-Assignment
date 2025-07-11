@@ -23,7 +23,12 @@ nav{
     align-items: center;
     /* margin: 50px 150px 547px; */
     padding: 50px 150px;
-    margin-bottom: 150px;
+    /* margin-bottom: 150px; */
+    /* width: 1140px;
+    height: 151px;
+    margin-left: 150px;
+    margin-right: 150px; */
+
 }
 .nav-title{
     font-size: 30px;
@@ -65,4 +70,29 @@ nav{
     margin-bottom: 152px; */
     /* padding: 309px 267.5px 152px 267.5px; */
     padding-bottom: 100px;
+}
+/* section styles */
+.action-details{
+    display: flex;
+    width: 1140px;
+    height: 328px;
+    margin: 0 auto;
+    justify-content: space-between;
+    margin-top: 116px;
+}
+.action-title{
+    font-size: 40px;
+    font-weight: bold;
+}
+.action-description{
+    font-size: 22px;
+    font-weight: 400;
+}
+.action-section{
+    padding: 62.5px 0px;
+}
+/* Main Styles */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
 }
